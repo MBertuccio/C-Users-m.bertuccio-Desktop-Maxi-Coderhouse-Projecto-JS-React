@@ -1,0 +1,43 @@
+/*EStructura*/
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-start;
+    /* Alinea el navbar en la parte superior */
+    min-height: 100vh;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 20px;
+    /* Espacio adicional arriba del navbar */
+    background-color: pink;
+    /* Aplica el color rosa al navbar */
+}
+
+.navbar h1 {
+    margin-bottom: 20px;
+}
+
+.navbar-buttons {
+    display: flex;
+    justify-content: center;
+    /* Centra los botones horizontalmente */
+    gap: 10px;
+    /* Espacio entre los botones */
+}
+
+/*SECCION LOGO*/
+
+.logo {
+    float: left; /* Alinea el logo a la izquierda */
+    margin-right: 10px; /* Ajusta el margen derecho para separar el logo de otros elementos */
+}
+
+.logo img {
+    width: 70px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    border-radius: 50%; /* Hace que el logo sea redondeado */
+}
